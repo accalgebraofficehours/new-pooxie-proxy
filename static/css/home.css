@@ -118,7 +118,7 @@ body {
 }
 
 button {
-    cursor: pointer;
+    cursor: loading;
     border: 2px;
     transition: 0.2s;
     margin-top: 10px;
