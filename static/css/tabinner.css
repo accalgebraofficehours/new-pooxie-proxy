@@ -1,5 +1,5 @@
 body {
-    background-color: #222;
+    background-color: #3A3B41;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 .search-container {
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #4E6151;
     border-radius: 50px;
     padding: 5px;
     overflow: hidden;
@@ -29,10 +29,10 @@ body {
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #444;
+    background-color: #5E8C61;
     border-radius: 50%;
     color: #fff;
-    cursor: pointer;
+    cursor: crosshair;
     z-index: 1;
     position: relative;
     transition: transform 0.5s;
