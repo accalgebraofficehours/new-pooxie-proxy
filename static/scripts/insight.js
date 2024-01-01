@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Idiot",
-      link: "https://poodleschool.github.io/Poodl/idiot.html",
+      link: "https://poodleschool.github.io/idiot",
       image: "/images/icons/apps/your-an-idiot.png",
       categories: ["all", "media", "stream"],
       error: false
