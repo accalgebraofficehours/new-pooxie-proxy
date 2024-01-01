@@ -254,6 +254,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["all", "media", "stream"],
       error: false
     },
+    {
+      name: "Idiot",
+      link: "https://poodleschool.github.io/Poodl/idiot",
+      image: "/images/icons/apps/your-an-idot.png",
+      categories: ["all", "media", "stream"],
+      error: false
+    },
   ];
     
   
