@@ -148,14 +148,6 @@ body {
 	transition: all 0.2s ease;
   }
   
-  .weird-icon {
-	line-height: 150px;
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 5px;
-	margin-bottom: 5px;
-  }
-  
   .navbar-link {
 	margin-right: 5px;
 	font-size: 3vh;
