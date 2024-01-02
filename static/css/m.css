@@ -204,11 +204,11 @@ body {
 	  transform: rotate(0deg);
 	}
 	33% {
-	  transform: rotate(15deg);
+	  transform: rotate(30deg);
 	}
 	  
 	67% {
-	  transform: rotate(-15deg);
+	  transform: rotate(-30deg);
 	}
 
 	100% {
