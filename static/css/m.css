@@ -194,6 +194,41 @@ body {
 	padding-top: 5px;
   }
 
+.navbar-link:hover > .searot-icon {
+	animation: seaspin 0.5s;
+	animation-timing-function: cubic-bezier(0, 1.04, 0.91, 0.99);
+  }
+  
+  @keyframes seaspin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(15deg);
+	}
+	  from {
+	  transform: rotate(15deg);
+	}
+	to {
+	  transform: rotate(-30deg);
+	}
+	  from {
+	  transform: rotate(-30deg);
+	}
+	to {
+	  transform: rotate(15deg);
+	}
+  }
+  img {
+	width: 6vh;
+	padding-top: 5px;
+  }
+
+
+
+
+
+
   @media (orientation: portrait) {
 	  img {
 	  width: 6vw;
