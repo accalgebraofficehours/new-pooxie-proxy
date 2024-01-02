@@ -1,7 +1,7 @@
 body {
     background-color: #3A3B41;
     font-family: Arial, sans;
-    color: #f0f0f0;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     letter-spacing: 0px;
@@ -45,7 +45,7 @@ body {
 }
 
 .settings-card p {
-    color: #b0b0b0;
+    color: #94E8B4;
 }
 
 .switch {
@@ -68,7 +68,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #ffffff;
     transition: .4s;
     border-radius: 34px;
 }
