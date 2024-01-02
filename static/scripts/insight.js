@@ -261,6 +261,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["all", "media", "stream"],
       error: false
     },
+    {
+      name: "Exploits",
+      link: "https://docs.google.com/document/d/1Kgdm4FLFkQAFChptymQBb5mDZebCQ9Bmf1MR_gQXtAY/edit?usp=sharing",
+      image: "/images/icons/na.webp",
+      categories: ["all", "media", "stream"],
+      error: false
+    },
   ];
     
   
