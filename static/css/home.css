@@ -80,7 +80,7 @@ body {
   }
 #particles-js {
 	position: absolute;
-	width: 18%;
+	width: 20%;
 	height: 100%;
 	top:0vw;
 	background-color: var(--bg-c);
