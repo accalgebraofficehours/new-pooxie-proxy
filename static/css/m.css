@@ -220,24 +220,12 @@ body {
 	padding-top: 5px;
   }
 
-@keyframes titlechange {
+@keyframes titlechange2 {
 
 0% {color: #72BDA3;}
 50% {color: #94E8B4;}
 100% {color: #72BDA3;}
 }
-
-.newchange {
-	  width: 100px;
-  height: 100px;
-  position: relative;
-  color: #72BDA3;
-  animation-name: titlechange;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-
 
   @media (orientation: portrait) {
 	  img {
