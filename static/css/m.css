@@ -207,13 +207,13 @@ body {
 	  transform: rotate(15deg);
 	}
 	  from {
-	  transform: rotate(15deg);
+	  transform: rotate(0deg);
 	}
 	to {
 	  transform: rotate(-30deg);
 	}
 	  from {
-	  transform: rotate(-30deg);
+	  transform: rotate(0deg);
 	}
 	to {
 	  transform: rotate(15deg);
