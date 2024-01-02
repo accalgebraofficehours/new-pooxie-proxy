@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Exploits",
       link: "https://docs.google.com/document/d/1Kgdm4FLFkQAFChptymQBb5mDZebCQ9Bmf1MR_gQXtAY/edit?usp=sharing",
-      image: "/images/icons/na.webp",
+      image: "/images/icons/newlmango65.png",
       categories: ["all", "media", "stream"],
       error: false
     },
