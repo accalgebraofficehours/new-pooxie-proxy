@@ -175,6 +175,25 @@ body {
 	width: 6vh;
 	padding-top: 5px;
   }
+
+.navbar-link:hover > .newmove-icon {
+	animation: spin7 0.5s;
+	animation-timing-function: cubic-bezier(0, 1.04, 0.91, 0.99);
+  }
+  
+  @keyframes spin7 {
+	from {
+	  transform: rotate(-30deg);
+	}
+	to {
+	  transform: rotate(60deg);
+	}
+  }
+  img {
+	width: 6vh;
+	padding-top: 5px;
+  }
+
   @media (orientation: portrait) {
 	  img {
 	  width: 6vw;
