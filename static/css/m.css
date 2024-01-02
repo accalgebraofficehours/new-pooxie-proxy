@@ -39,8 +39,8 @@ body {
 	min-height: 13vh;
 	padding: 0 25px;
 	box-sizing: border-box;
-	background-color: #72BDA3;
-	box-shadow: 0 0 15px 2px #72BDA3;
+	background-color: #395F52;
+	box-shadow: 0 0 15px 2px #395F52;
 	backface-visibility: visible;
 	transition: 0.35s ease;
 	z-index: 100;
