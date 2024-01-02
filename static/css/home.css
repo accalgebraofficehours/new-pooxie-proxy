@@ -1,15 +1,16 @@
-body {
-	background-color: #3A3B41;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	@font-face {
+@font-face {
     	font-family: 'arconregular';
     	src: url('./arcon-regular-webfont.woff2') format('woff2'),
          url('./arcon-regular-webfont.woff') format('woff');
     	font-weight: normal;
     	font-style: normal;
-	}
+}
+
+body {
+	background-color: #3A3B41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -17,19 +18,13 @@ body {
 	top: -10vh;
 	font-size: 9vh;
 	color: #72BDA3;
-	@font-face {
-    		font-family: 'arconregular';
-    		src: url('../fonts/arcon-regular-webfont.woff2') format('woff2'),
-         	url('../fonts/arcon-regular-webfont.woff') format('woff');
-    		font-weight: normal;
-    		font-style: normal;
-	}
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 0px 0px 5px 5px;
   animation-name: titlechange;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+	font-family: 'arconregular';
 }
 
 @media (orientation: portrait) {
