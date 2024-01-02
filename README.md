@@ -1,5 +1,8 @@
 <center><img src=/static/main_inverted.png
-          <b>Pookie Proxy</b><br>
+          <b>
+          <div class="titile">
+          Pookie Proxy</b><br>
+          </div>
 <a href="https://www.patreon.com/PookieProxy">Support this community supporting the downfall of internet censorship by donating</a></center>
 <br>DEPLOYER YEE SELF
 <Br><b>Contributors</b>
