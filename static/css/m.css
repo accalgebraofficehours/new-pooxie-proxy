@@ -176,17 +176,17 @@ body {
 	padding-top: 5px;
   }
 
-.navbar-link:hover > .newmove-icon {
-	animation: spin7 0.5s;
+.navbar-link:hover > .bugrot-icon {
+	animation: bugspin 0.5s;
 	animation-timing-function: cubic-bezier(0, 1.04, 0.91, 0.99);
   }
   
-  @keyframes spin7 {
+  @keyframes bugspin {
 	from {
-	  transform: rotate(-30deg);
+	  transform: rotate(0deg);
 	}
 	to {
-	  transform: rotate(60deg);
+	  transform: rotate(-360deg);
 	}
   }
   img {
