@@ -195,7 +195,7 @@ body {
   }
 
 .navbar-link:hover > .searot-icon {
-	animation: seaspin 1.5s;
+	animation: seaspin 1s;
 	animation-timing-function: cubic-bezier(0, 1.04, 0.91, 0.99);
   }
   
