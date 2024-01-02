@@ -13,7 +13,11 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 0px 0px 5px 5px;
+  animation-name: titlechange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+
 @media (orientation: portrait) {
 	.title {
 		position: relative;
@@ -24,8 +28,19 @@ body {
 		text-align: center;
 		text-transform: uppercase;
 		border-radius: 0px 0px 5px 5px;
+		  animation-name: titlechange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 	}
   }
+
+@keyframes titlechange {
+
+0% {color: #72BDA3;}
+50% {color: #94E8B4;}
+100% {color: #72BDA3;}
+}
+
 .description {
 	position: absolute;
   top: 240px;
