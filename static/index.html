@@ -1,40 +1,5 @@
 <!DOCTYPE html>
 <head>
-  <script>    // JavaScript to animate scrolling to the right
-    const scrollDuration = 2000; // Adjust the duration of the scroll animation in milliseconds
-    const targetScroll = document.querySelector('.content').scrollWidth - window.innerWidth;
-
-    function scrollToRight() {
-      const initialScroll = window.scrollX || window.pageXOffset;
-      const startTime = performance.now();
-
-      function animateScroll(currentTime) {
-        const elapsedTime = currentTime - startTime;
-        const nextScroll = Math.easeInOutQuad(elapsedTime, initialScroll, targetScroll - initialScroll, scrollDuration);
-
-        window.scrollTo(nextScroll, 0);
-
-        if (elapsedTime < scrollDuration) {
-          requestAnimationFrame(animateScroll);
-        }
-      }
-
-      // Easing function for smooth animation
-      Math.easeInOutQuad = function (t, b, c, d) {
-        t /= d / 2;
-        if (t < 1) return (c / 2) * t * t + b;
-        t--;
-        return (-c / 2) * (t * (t - 2) - 1) + b;
-      };
-
-      requestAnimationFrame(animateScroll);
-    }
-
-    // Call the scrollToRight function when the page loads
-    window.onload = function() {
-      scrollToRight();
-    };
-    </script>
   <script src="/scripts/scholarly.js"></script>
   <!-- Site Data-->
     <link rel="shortcut icon" id="dynamic-favicon" href="favicon.png">
