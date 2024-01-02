@@ -3,3 +3,9 @@
 }
 
 .crosshair {cursor: crosshair;}
+
+
+::placeholder {
+  color: #94E8B4;
+  opacity: 1; /* Firefox */
+}
