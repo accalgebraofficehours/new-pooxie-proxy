@@ -14,7 +14,7 @@ body {
 	text-transform: uppercase;
 	border-radius: 0px 0px 5px 5px;
   animation-name: titlechange;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
