@@ -195,27 +195,23 @@ body {
   }
 
 .navbar-link:hover > .searot-icon {
-	animation: seaspin 3s;
+	animation: seaspin 2s;
 	animation-timing-function: cubic-bezier(0, 1.04, 0.91, 0.99);
   }
   
   @keyframes seaspin {
-	from {
+	0% {
 	  transform: rotate(0deg);
 	}
-	to {
+	33% {
 	  transform: rotate(15deg);
 	}
-	  from {
-	  transform: rotate(0deg);
-	}
-	to {
+	  
+	67% {
 	  transform: rotate(-30deg);
 	}
-	  from {
-	  transform: rotate(0deg);
-	}
-	to {
+
+	100% {
 	  transform: rotate(15deg);
 	}
   }
